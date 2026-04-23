@@ -5,19 +5,37 @@ function Projects() {
     <div>
       <h1>My Projects</h1>
 
-      <p>
-        Project 1: 
-        <a href="https://github.com/your-username/project1" target="_blank">
+      {/* Project 1 */}
+      <div>
+        <h3>Portfolio Website</h3>
+        <p>
+          Personal portfolio built using React and deployed using GitHub Pages.
+        </p>
+        <a 
+          href="https://github.com/Ramaraju8373/portfolio"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Code
         </a>
-      </p>
+      </div>
 
-      <p>
-        Project 2: 
-        <a href="https://github.com/your-username/project2" target="_blank">
+      <br />
+
+      {/* Project 2 */}
+      <div>
+        <h3>College Attendance Analyzer</h3>
+        <p>
+          A system to analyze and manage student attendance efficiently.
+        </p>
+        <a 
+          href="https://github.com/Ramaraju8373/college-attendance-analyzer"
+          target="_blank"
+          rel="noreferrer"
+        >
           View Code
         </a>
-      </p>
+      </div>
     </div>
   );
 }
